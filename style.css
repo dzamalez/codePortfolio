@@ -14,17 +14,20 @@ html {
     text-align: center;
 }
 #banner {
-    background-image: url(/resources/codingImg.jpg);
+    background-image: url(/resources/codingImg1.jpg);
     background-position: center;
     height: 25rem;
     background-size: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
+    max-width: 1366px;
 }
-#banner > h2 {
+#banner h2 {
     color: white;
     background: transparent;
+    font-size: 2em;
+    text-shadow: 2px 2px 6px black;
 }
 
 #title {
@@ -41,12 +44,11 @@ html {
 }
 
 body nav a[href] {
-    display: inline-block;
+    display: block;
     position: relative;
     color: white;
     font-size: 10px;
     top: 0;
-    left: 1133px;
 }
 
 article {
