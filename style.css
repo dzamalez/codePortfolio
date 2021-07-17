@@ -22,6 +22,7 @@ html {
     display: flex;
     align-items: center;
     max-width: 1366px;
+    margin: 0 auto;
 }
 #banner h2 {
     color: white;
@@ -51,23 +52,23 @@ body nav a[href] {
     top: 0;
 }
 
-article {
-    margin: 20px 100px;
-    position: relative;
-    top: 100px;
-    width: 500px;
+#content-container {
+    max-width: 1360px;
+    justify-content: center;
+    text-align: center;
 }
 
-article h3 {
-    width: 150px;
-    color: white;
-    padding: 0;
-    margin-right: 10;
+#about-me {
+    margin-top: 10%;
 }
 
-article p {
-    width: 500px;
-    color: white;
+#about-me p {
+    display: inline-flex;
+    max-width: 800px;
+    min-width: 400px;
+    text-align: justify;
+    justify-content: center;
+    padding: 0 5%;
 }
 
 #footer {
