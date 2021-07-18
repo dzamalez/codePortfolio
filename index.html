@@ -6,9 +6,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <body> 
+    <body class="light-mode"> 
         <div id="header">
             <h1 id="title">Diego Zamora</h1>
+            <button id="light-mode" type="button" onclick="lightMode()"></button>
         </div>
         <div id="banner">
             <h2>Full-Stack Web Developer</h2>
@@ -22,15 +23,15 @@
                     development course for full stack engineering through Codecademy. Please check out my projects bellow!
                 </p>
             </div>
-        </div>
-        <div id="projects">
-            <h3>Projects</h3>
-            <button type="button" class="collapsible">Mixed Messages</button>
-                <div class="content">
-                    <p>Mixed Messages is a random quote generator. This Project was a part of the development course.
-                        The project can be viewed <a href="https://dzamalez.github.io/mixedMessages/">here</a>
-                    </p>
-                </div>
+            <div id="projects">
+                <h3>Projects</h3>
+                <button type="button" class="collapsible">Mixed Messages</button>
+                    <div class="content">
+                        <p>Mixed Messages is a random quote generator. This Project was a part of the development course.
+                            The project can be viewed <a href="https://dzamalez.github.io/mixedMessages/">here</a>
+                        </p>
+                    </div>
+            </div>
         </div>
         <script>
             alert('Hi there! This website is currently under construction. Please come back later!');
